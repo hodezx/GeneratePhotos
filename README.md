@@ -6,7 +6,7 @@ Populate photos for the iOS simulator
 Will let the photos in the test_photos directory get into the iOS simulator for testing with lots of photos.
 To change how many photos(could be dublicated) you want for you simulator, simply call debugWritePicture in ViewController.m the same times.
 
-Obviously what matters is the two functions in ViewController.m:
+Obviously what matters are the two functions in ViewController.m:
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo;
 - (void) debugWritePicture;
 
